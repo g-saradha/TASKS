@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-size: 24px; /* Larger font size */
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(BG.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensure the background image covers the entire viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    }
+    
+    input[type="text"] {
+    width: 100%;
+    /*max-width: 400px;*/
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    font-size: 24px; /* Larger font size for input */
+    }
+    
+    button {
+    max-width: 400px;
+    padding: 20px;
+    font-size: 24px; /* Larger font size for button */
+    background-color: rgba(0, 0, 0, 0.5); /* Partially visible button with transparency */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    }
+    
+    #dress-suggestion {
+    margin-top: 20px;
+    text-align: left; /* Align the text inside the suggestion div to the left */
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.3); /* Partially visible suggestion div with transparency */
+    padding: 10px;
+    }
+    
